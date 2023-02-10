@@ -3,7 +3,8 @@ document.querySelector('.getWeatherBtn').addEventListener('click', getFetch);
 
 function getFetch(){
   let location = document.querySelector('input').value;
-  const APIKey = '3b731b91dd0f788536dca94728ee7baf'
+//   please get your own APIKey and insert below
+  const APIKey = ''
   const geo = `http://api.openweathermap.org/geo/1.0/direct?q=${location}&limit=5&appid=${APIKey}`;
 
   document.querySelector('h2').innerHTML = location;
