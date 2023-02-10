@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="This is where your description goes">
+    	<meta name="keywords" content="one, two, three">
+
+		<title>Weather App</title>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Karla:wght@500&family=Montserrat:wght@500;600;700;800&family=Poppins:wght@200;300;400&display=swap" rel="stylesheet">
+	</head>
+	<body>
+
+
+
+		<header>
+			<h1>Weather Checker</h1>
+		</header>
+		<!-- container for the entire input/output -->
+		<section class="container"> 
+			
+			<!-- container for user input -->
+			<section class="container_input">
+				<input type="text" name="" value="" placeholder="Enter Location...">
+				<button type="button" class="getWeatherBtn">Get Weather</button>
+			</section>
+
+			<!-- container for the output -->
+
+			<section class="card">
+				<!-- column for weather icon/ image -->
+				<section class=" column_one">
+					<img src="" alt="weather icon">
+				</section>
+				
+				<!-- column for city, temps and description -->
+				<section class="column_two">
+					<!-- organized for city, description and current temp -->
+					<div class="city_and_description">
+						<section class="row_one">
+							<h2>City</h2>
+							<span class="weatherDescription">Weather Description</span>
+						</section>
+						<section class="row_two">
+							<span class="minTemp">Min Temp</span>
+							<span class="maxTemp">Max Temp</span>
+						</section>
+					</div>
+					<div class="current_temp">
+						<span class="currentTemp">Current Temp</span>
+					</div>
+				</section>
+			</section>
+
+		</section>
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>
